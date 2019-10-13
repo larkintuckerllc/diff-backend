@@ -1,15 +1,18 @@
 export interface Book {
   author: string;
+  id: string;
   title: string;
 }
 
 export default [
   {
-    title: 'Harry Potter and the Chamber of Secrets',
     author: 'J.K. Rowling',
+    id: '0',
+    title: 'Harry Potter and the Chamber of Secrets',
   },
   {
-    title: 'Jurassic Park',
     author: 'Michael Crichton',
+    id: '1',
+    title: 'Jurassic Park',
   },
 ] as Book[];

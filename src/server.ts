@@ -9,9 +9,6 @@ import resolvers from './resolvers';
 const app = express();
 app.use(cors());
 app.use(json());
-app.get('/', (req, res): void => {
-  res.send({ hello: 'world' });
-});
 const server = new ApolloServer({ typeDefs, resolvers });
 server.applyMiddleware({ app });
 app.listen(3000, (): void => console.log('Example app listening on port 3000!'));

@@ -15,15 +15,8 @@ const data = [
     author: 'J.K. Rowling',
     id: '0',
     isDeleted: false,
-    lastModified: 1,
-    title: 'Harry Potter and the Chamber of Secrets',
-  },
-  {
-    author: 'Michael Crichton',
-    id: '1',
-    isDeleted: false,
     lastModified: 0,
-    title: 'Jurassic Park',
+    title: 'Harry Potter and the Chamber of Secrets',
   },
   {
     author: 'J.K. Rowling',
